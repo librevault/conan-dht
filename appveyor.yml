@@ -10,6 +10,7 @@ environment:
     CONAN_LOGIN_USERNAME: "jech"
     CONAN_CHANNEL: "testing"
     VS150COMNTOOLS: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Common7\\Tools\\"
+    CONAN_UPLOAD: "https://api.bintray.com/conan/gamepad64/conan"
     
     matrix:
         - APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2015

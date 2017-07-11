@@ -5,6 +5,7 @@ env:
      - CONAN_USERNAME: "jech"
      - CONAN_LOGIN_USERNAME: "jech"
      - CONAN_CHANNEL: "testing"
+     - CONAN_UPLOAD: "https://api.bintray.com/conan/gamepad64/conan"
      
 linux: &linux
    os: linux
