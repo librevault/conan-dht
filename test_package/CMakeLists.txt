@@ -6,7 +6,10 @@ conan_basic_setup()
 
 add_executable(example example.c)
 target_link_libraries(example ${CONAN_LIBS})
+
+if(WIN32)
 target_link_libraries(example ws2_32)
+endif()
 
 # CTest is a testing tool that can be used to test your project.
 # enable_testing()
