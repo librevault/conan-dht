@@ -13,7 +13,7 @@
 #include "dht.h"
 
 int main(int argc, char** argv) {
-    dht_init(0, 0, 0, 0);
+    dht_init(-1, -1, "01234567890123456789", 0);
     return 0;
 }
 
