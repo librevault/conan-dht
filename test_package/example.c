@@ -1,9 +1,15 @@
 #include <stdio.h>
 #include <stdint.h>
 #include <time.h>
+#ifndef _WIN32
+#include <unistd.h>
+#include <fcntl.h>
+
 #include <arpa/inet.h>
 #include <sys/types.h>
 #include <sys/socket.h>
+#include <netinet/in.h>
+#endif
 #include "dht.h"
 
 int main(int argc, char** argv) {
