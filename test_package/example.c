@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <stdint.h>
 #include <time.h>
+#include <arpa/inet.h>
+#include <sys/types.h>
+#include <sys/socket.h>
 #include "dht.h"
 
 int main(int argc, char** argv) {
