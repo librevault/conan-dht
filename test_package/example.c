@@ -13,7 +13,8 @@
 #include "dht.h"
 
 int main(int argc, char** argv) {
-    return dht_init(0, 0, 0, 0);
+    dht_init(0, 0, 0, 0);
+    return 0;
 }
 
 int dht_blacklisted(const struct sockaddr *sa, int salen) {return 0;}
