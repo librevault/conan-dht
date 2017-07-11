@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdint.h>
+#include <time.h>
 #include "dht.h"
 
 int main(int argc, char** argv) {
